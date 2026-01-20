@@ -9,7 +9,7 @@ tags: []
 
 ## Entity type
 
-An **Entity type** define a set of entities that share the same set of [[attribut|attributs]]
+An **Entity type** define a set of entities that share the same set of [[attribute|attributes]]
 
 **exemple**: let's say we want to represent an enterprise. We must define all
 employees. To do that we need to define an Employee entity type
