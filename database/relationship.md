@@ -45,7 +45,7 @@ a worker but also the director
 
 ## Cardinality ratio
 
-The **cardinality ratio** define the maximum number number of relationship
+The **cardinality ratio** define the maximum number of relationship
 instances that an entity can participate in
 
 The most common relationship is a **binary relationship**. In a binary
