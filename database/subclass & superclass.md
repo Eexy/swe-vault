@@ -16,7 +16,7 @@ have its own attribute / relationship.
 When a subclass has its own attribute / relationship it can be considered an
 [[entity#entity#entity-type|entity type]] in its own right
 
-**exemple** : Let's say we have an entity type EMPLOYEE we can have a subclass
+**example** : Let's say we have an entity type EMPLOYEE we can have a subclass
 SECRETARY, ENGINEER. All those subclass not necessery exist as en entity type
 
 ## Superclass
