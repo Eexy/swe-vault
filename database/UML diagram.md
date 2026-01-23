@@ -57,4 +57,9 @@ In a [[UML diagram]] like in a ER diagram a subclass / superclass is represented
 normal enity linked to the main entity with a solid line. There is the an arrow on
 the going to the superclass 
 
+### Constraints
+
+A disjointness constraint is represented by a blank triangle and an overlapping
+triangle is represented by a filled triangle
+
 
