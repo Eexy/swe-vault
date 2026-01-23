@@ -1,9 +1,9 @@
 ---
-id: ER diagam
+id: ER diagram
 aliases: []
 tags: []
 ---
-# ER diagam
+# ER diagram
 
 ![[Pasted image 20250316151902.png]]
 
@@ -59,7 +59,7 @@ participation]] is represented like a relationship
 
 ![[database/subclass.png]]
 
-In a [[ER diagam]] a subclass is represented like a entity linked to
+In a ER diagram a subclass is represented like a entity linked to
 the main entity.
 
 If the subclass has its own attribute then like an entity we represented like
@@ -70,7 +70,7 @@ all the inherited attribute
 
 ### Constraints
 
-In a [[ER diagam]] a disjointness constraint is represent by a `d` in a circle on the linked
+In a ER diagram a disjointness constraint is represent by a `d` in a circle on the linked
 between the superclass and its subclass
 
 ![[database/disjointness_constraint.png]]
@@ -82,4 +82,11 @@ When subclass are overlapping we represent this by a `o` instead of a `d`
 A total specialization / generalization is represented by two straigth lines
 
 A partial specialization / generalization is represented by one straigth line
+
+### Union
+
+An [[union]] is represented like an entity connected to all the entity types
+with a `u` in a circle and a $\cup$
+
+![[database/union.png]]
 

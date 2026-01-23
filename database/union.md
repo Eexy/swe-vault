@@ -1,15 +1,31 @@
+---
+id: union
+aliases: []
+tags: []
+---
 # Union
 
-Une **union** permet de représenter un ensemble d'entité provenant de différent [[entité#Type d'entité (Entité)|type d'entité]]. Une union peut aussi être appelé une **catégorie**
+An **union** allow to represent a collection of entites from different
+[[entity#entity#entity-type|entity types]] 
 
-Dans le cas d'une union une [[sous-classe & super-classe|sous-classe]] va représenté une collection d'[[entité]] qui est un sous-ensemble de l'union
+An union is as [[subclass & superclass#subclass|subclass]]. This
+union correspond to the collection / set of entities that is a subset of the
+UNION of all the distinct entity types that forms it. We call this subclass a 
+**union type** or a **category**
 
-exemple : Soit 3 entités (PERSONNE, BANQUE, ENTREPRISE) dans une une base de donné concernant l'enregistrement de véhicule. Malgré que ce soit 3 entités distinct chacune de ces entités est une propriétaire de véhicule
+Because an union is a subclass all the entity types that forms it are its
+superclasses
 
-![[union example.png]]
+**example** : Let's say that we want to reprent an owner of a vehicule. An owner
+could be a PERSON, a COMPANY or a BANK
 
-Dans cet exemple la sous-classe PERSONNE est une entité qui correspond aussi à un ensemble d'instance d'entité PERSONNE qui fait parti de l'ensemble des PROPRIÉTAIRE. Donc PERSONNE est un sous-ensemble de PROPRIÉTAIRE. PROPIETAIRE est considéré représenté comme une entité
+We need to create a class that includes entities that can come from those 3
+entities.
 
-## Représentation graphique
+To do that we create a **union type** OWNER that is a subclass of the UNION of
+those tree entity sets
 
-Une union est représenté graphiquement avec un cercle contenant un $u$ reliant la super-classe à ses sous-classe. Un arc de cercle indique le sens de lecture / d'appartenance.
+### Graphical representation
+
+Here is the [[ER diagram#union|graphical representation]] of the union
+
