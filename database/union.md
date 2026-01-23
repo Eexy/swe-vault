@@ -25,6 +25,9 @@ entities.
 To do that we create a **union type** OWNER that is a subclass of the UNION of
 those tree entity sets
 
+**important**: An union is necessarily created from at least the union of two
+distinct entity
+
 ### Graphical representation
 
 Here is the [[ER diagram#union|graphical representation]] of the union
