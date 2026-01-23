@@ -48,3 +48,13 @@ have any limit it's replace by an asterisk `*` or by `n`
 **exemple** : multiplicities between a product and its categories
 
 ![[database/multiplicities.png]]
+
+## Subclass and superclass
+
+![[database/subclass_uml.png]]
+
+In a [[UML diagram]] like in a ER diagram a subclass / superclass is represented like an
+normal enity linked to the main entity with a solid line. There is the an arrow on
+the going to the superclass 
+
+
