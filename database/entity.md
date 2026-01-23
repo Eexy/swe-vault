@@ -9,7 +9,10 @@ tags: []
 
 ## Entity type
 
-An **Entity type** define a set of entities that share the same set of [[attribute|attributs]]
+An **Entity type** define a set of entities that share the same set of [[attribute|attributs]].
+
+An entity type can also be viewed as a type in traditional programming or as a
+category
 
 **exemple**: let's say we want to represent an enterprise. We must define all
 employees. To do that we need to define an Employee entity type

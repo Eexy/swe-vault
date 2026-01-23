@@ -5,7 +5,7 @@ tags: []
 ---
 # Union
 
-An **union** allow to represent a collection of entites from different
+An **union** allow to represent a collection of entities from different
 [[entity#entity#entity-type|entity types]] 
 
 An union is as [[subclass & superclass#subclass|subclass]]. This
