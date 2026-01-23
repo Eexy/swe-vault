@@ -55,3 +55,31 @@ entity
 A [[relationship#participation-constraint#partial-participation|partial
 participation]] is represented like a relationship 
 
+## Subclass & superclass
+
+![[database/subclass.png]]
+
+In a [[ER diagam]] a subclass is represented like a entity linked to
+the main entity.
+
+If the subclass has its own attribute then like an entity we represented like
+any attribute in an entity
+
+For subclass we only specified its own attribute we don't need to represented
+all the inherited attribute
+
+### Constraints
+
+In a [[ER diagam]] a disjointness constraint is represent by a `d` in a circle on the linked
+between the superclass and its subclass
+
+![[database/disjointness_constraint.png]]
+
+When subclass are overlapping we represent this by a `o` instead of a `d`
+
+![[database/overlapping_subclass.png]]
+
+A total specialization / generalization is represented by two straigth lines
+
+A partial specialization / generalization is represented by one straigth line
+

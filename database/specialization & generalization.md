@@ -58,17 +58,6 @@ A specialization that is attribute-defined implies the disjointess constraint
 When subclasses are not constrained to be disjoint meaning that an entity can
 belongs to multiple subclass we say they are overlapping
 
-#### Graphical representation
-
-In a [[ER diagam]] a disjointness constraint is represent by a `d` in a circle on the linked
-between the superclass and its subclass
-
-![[database/disjointness_constraint.png]]
-
-When subclass are overlapping we represent this by a `o` instead of a `d`
-
-![[database/overlapping_subclass.png]]
-
 ### Completeness constraint
 
 A **completeness constraint** also called a **totalness constraint**. This constraint can be partial or total.
@@ -79,11 +68,3 @@ There is two forms of a completeness constraint
 least one subclass
 - partial: it means that not every entity must belong to a subclass
 
-#### Graphical representation
-
-A total specialization / generalization is represented by two straigth lines
-
-A partial specialization / generalization is represented by one straigth line
-
-There is two example above on the disjointness constraint graphical
-representation
