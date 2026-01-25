@@ -7,7 +7,7 @@ tags: []
 
 ## Subclass
 
-A **subclass** is a subtype of an [[entity]] that have a special meaning /
+A **subclass** is a subtype of an [[entity#entity#entity-type|entity type]] that have a special meaning /
 specific role
 
 A subclass inherit all the [[attribute]] and [[relationship]] from the entity but can also
