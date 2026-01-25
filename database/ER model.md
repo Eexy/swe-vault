@@ -1,18 +1,21 @@
+---
+id: ER model
+aliases: []
+tags: []
+---
 # Model entité-association
 
-Le model entité-association est un modèle de conceptualisation de base de donnée 
+The entity-relationship (ER) model is a model to conceptualize a
+[[1769353623-DPRZ|database]]
 
-La conceptualisation se base sur 3 concepts :
-- [[entité]]
-- [[attribut]]
-- [[association]]
+the ER model describles data as
 
-Le model entité-association peut être représenté graphiquement de deux manière différentes :
-- [[diagramme ER]]
-- [[diagramme UML]]
+- [[entity]]
+- [[attribute]]
+- [[relationship]]
 
-Malgré que ce model permet de représenter une énorme variété de cas il à du évoluer afin de représenter les cas les plus complexe. Pour cela on à du lui rajouter des concepts :
+The ER model can graphically represented by
 
-- [[sous-classe & super-classe]]
-- [[specialisation - généralisation]]
-- [[union]]
+- [[ER diagram]]
+- [[UML diagram]]
+
