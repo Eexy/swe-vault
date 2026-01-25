@@ -1,75 +1,98 @@
+---
+id: relation
+aliases: []
+tags: []
+---
 # Relation
 
-Une relation correspond à un ensemble d'attribut lié entre eux représentant une [[entité]] du monde réel. Les relations sont représenté par une **table**. Chaque ligne de la table correspond à une entité du monde réel. Cela permet aussi de représenté une [[association]]
+the [[ER model]] represent the database as a collection of **relation**. A
+relation is a **table** where each row represents a collection of related
+data values. 
 
-exemple : Une table ETUDIANT contient plusieurs ligne, chaque ligne correspond à un étudiant du monde réel. On va par exemple retrouvé les colonnes pour :
-- le nom
-- le prénom
-- numéro d'étudiant
-- ...
+A row typically corresponds to a [[entity|entity instance]] or [[relationship|relationship instance]] and it's called
+a **tuple**
 
-## Schéma de relation
+Each relation owns a name which is the table name and columns name that are used
+to help interpret the meaning of the values in each row
 
-Un **schéma de relation** décrit une [[#Relation]] :
+The columns are the **[[#Attribute|attributes]]** of the relations
+
+**example** : A relation STUDENT. Each tuple of this relation represents a real
+student
+
+## Domains
+
+A **domain** $D$ is a set of **atomic value** which mean that each value in the
+domain is indivisible as far as the formal relational model is concerned.
+
+One way to create a domain is to specify a data type from which the values
+forming the domain are down
+
+**example** : Let's say we have a relation STUDENT it could have a `age`
+domain. This age attribute is of type integer
+
+## Relation schema
+
+A **relation schema** $R$ discribe the relation we write it
 
 $$
 R(A_1, A_2,...,A_n)
 $$
-Ou on à :
-- $R$ est le nom de la relation
-- $A_i$ est un [[#Attribut]]. C'est le nom donné au [[#Domaine]] dans la relation courante
 
-Chaque attribut correspond à un domaine $D$. $D$ est alors de domaine de $A_i$ qui peut être écrit $dom(A_i)$
+We have :
 
-## Degré
+- $R$ as the name of the relation
+- $A_i$ the list of [[#Attribute|attribute]] which correspond to a
+[[#Domains|domain]]
 
- Une [[#Relation]] possède un **degré** qui correspond au nombre d'[[#Attribut]] qui la compose
- 
-## Domaine
+## Attribute
 
-Un **domaine** $D$ est une ensemble de valeur **atomique**. Cela veut dire que chaque valeur du domaine est indivisible.
-
-Un moyen de créer un domaine est de spécifié le type de donné (aussi appelé **format**) du quel les valeurs du domaine sont extraite. Il est utile de donné un nom au domaine afin d'interpréter les valeurs
-
-exemple : Le domaine $nom$ correspond à l'ensemble des chaîne de caractère représentant un nom
-
-## Attribut
-
-Un **attribut** $A_i$ correspond au rôle joué par le [[#Domaine]] dans la relation courante. $D$ est alors le domaine de $A_i$. Il est noté 
+An **attribute** $A_i$ is the name of a role played by some domain $D$ in the
+relation schema $R$. We say that $D$ is **domain** of $A_i$ and we write it
 
 $$
 dom(A_i)
 $$
-## Etat de relation
 
-Un **etat de relation** $r$ d'un schéma $R(A_1,...,A_n)$ est noté 
+**example** : An `age` attribute represent the domain of all positive integer in
+our relation
 
-$$
-r(R)
-$$
-est un ensemble de $n$-[[#Tuple]] tel que 
+## Degree
 
-$$
-r = {t_1, t_2,...,t_n}
-$$
-Il permet de représenter une relation $R$ à un instant T
+The **Degree** of the relation corresponds to the number of attributes in our
+relation
 
 ## Tuple
 
-Dans le model relationnel un **tuple** correspondant à une liste de $n$ valeurs ordonné tel qu'on à 
+A tuple is a list of $n$ ordered values
+
 
 $$
 t = <v_1, v_2,...,v_n>
 $$
-Ou chaque valeur $v_i$ est un élément de $dom(A_i)$ ou bien la valeur NULL. 
 
-On fait réference à la $i$-eme valeur du tuple $t$ qui correspond à l'[[#Attribut]] $A_i$ via la notation : $t[A_i]$ 
+Each $v_i$ is an element of $dom(A_i)$ or the $NULL$ value
 
+In a tuple the $i$th value corresponds to the attribute $A_i$ and is referred to as $t[A_i]$ 
 
+## Relation state
 
-## Représentation mathématique
+A **relation state** also called **relation** $r$ of the relation $R(A_1,...,A_n)$ is written
 
-Une [[#Etat de relation]] $r(R)$ est une [[relation mathematique]] de dégrée $n$ sur les domaine $dom(A_i)$. C'est donc un [[sous-ensemble]] du [[produit cartesien]] sur les domaines qui définisse $R$
+$$
+r(R)
+$$
+
+It correspond to set of $n$-[[#Tuple|tuple]] that we can write
+
+$$
+r = {t_1, t_2,...,t_n}
+$$
+
+## Mathematical representation
+
+A relation can be represented as a mathematical relation of degree $n$ which is
+a subset of the cartesian product of the domains that define $R$
 
 $$
 r(R) \subseteq (dom(A_1) \times dom(A_2) \times ... dom(A_n))
