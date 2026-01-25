@@ -10,9 +10,14 @@ each [[entity]]. This key can be used to identify each enity uniquely
 
 ## Super key
 
-A **super key** is a key where we can't remove an [[attribute]] whithout
+A **super key** is a key where we can remove an [[attribute]] whithout
 deleting the key itself
 
-## Key candidate
+## Candidate key
 
-When an [[entity]] has multiple key then each key is call a **key candidate**
+When an [[entity]] has multiple key then each key is call a **candidate key**
+
+## Primary key
+
+A **primary key** correspond the the candidate key that we will use to identify
+an entity
