@@ -10,7 +10,7 @@ An **union** allow to represent a collection of entities from different
 
 An union is as [[subclass & superclass#subclass|subclass]]. This
 union correspond to the collection / set of entities that is a subset of the
-UNION of all the distinct entity types that forms it. We call this subclass a 
+UNION of all the entity types that forms it. We call this subclass a 
 **union type** or a **category**
 
 Because an union is a subclass all the entity types that forms it are its
