@@ -1,3 +1,9 @@
+---
+id: DDL
+aliases: []
+tags: []
+---
 # DDL
 
-Le **DDL** correspond au langage utilisé pour définir les données de la BDD (data definition language)
+**DDL** (data definition language) is the language use to define
+[[database]]
