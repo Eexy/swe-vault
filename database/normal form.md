@@ -12,7 +12,7 @@ There is multi level of normal form :
 - [[#1NF : First normal form]]
 - [[#2NF : Second normal form]]
 - [[#3NF : Third normal form]]
-- [[#FNBC : Boyce-Codd normal form]]
+- [[#BCNF : Boyce-Codd normal form]]
 
 The main goal with implementing normal form is to reduce the risk of
 [[anomaly]] and to avoid data redundancy
