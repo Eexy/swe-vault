@@ -59,8 +59,7 @@ By doing that if we want to add a new product to a command we simply add a tuple
 
 The second normal form **2NF** is based on the concept of 
 [[functional dependencies#full-fonctional-dependency|full fonctional dependency]] which means
-that every **nonprime attribute** (attribute that are not part of the
-[[key#primary-key|primary key]] must be determined by the primary key
+that every **[[relation#prime-attribute|non prime attribute]]**  must be determined by the primary key
 
 **example** : If we take our `ORDERS` relations and that we want to add the
 price for each product we could add a price `Price` column
@@ -111,8 +110,9 @@ orders are updated
 
 The third normal form **3NF** is based on 
 [[functional dependencies#transitive-functional-dependency|transitive dependency]]. A relation 
-is **3NF** if there is no transitive dependency which means that all attribute
-must be determined from the primary key
+is **3NF** if there is no transitive dependency which means that all non
+[[relation#prime-attribute|non prime attribute]] must be determined directly from
+the primary key
 
 **example**: Let's say we have a relation `EMPLOYEE`
 
@@ -152,4 +152,54 @@ We update our `EMPLOYEE` relation
 
 Now when we need to update one of our manager we only do it once
 
-## FNBC : Boyce-Codd normal form
+## BCNF : Boyce-Codd normal form
+
+The **Boyce-Codd normal form** is based on the third-normal form. It is a
+strictier version of it
+
+To have a relation that respect the BCNF that means that for any functional
+dependency $X \rightarrow Y$ then $X$ must be a [[key#candidate-key|candidate key]]
+
+**example**: Let say we have a relation `TEACH` that store each student with
+their course and the teacher
+
+
+
+| Student | Course | Teacher |
+|-----------|-----|-------------|
+| Cindy | Math | Pythagore |
+| Matheo | Math | Pythagore |
+| Melanie | Marketing | Jobs  |
+
+
+We can see that we have three functional dependency
+1. {StudentId, Course} determine Teacher
+2. {teacher} determine course
+3. {Student, Teacher} determine course
+
+The problem is that `Teacher` is not a key so if we delete `Melanie` we lose the
+information that Jobs teach `Marketing`
+
+To remedy that we need to decouple this relation like that
+
+`Teacher`
+
+
+|  Course | Teacher  |
+|-----|-------------|
+| Math | Pythagore |
+| Math | Pythagore |
+| Marketing | Jobs  |
+
+
+`Teach`
+
+
+| Student | Teacher |
+|-----------|-----|
+| Cindy |   Pythagore |
+| Matheo |   Pythagore |
+| Melanie |  Jobs  |
+
+
+

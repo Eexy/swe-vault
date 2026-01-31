@@ -57,6 +57,11 @@ $$
 **example** : An `age` attribute represent the domain of all positive integer in
 our relation
 
+### Prime attribute
+
+A **prime attribute** is an attribute that is a member of a
+[[key#candidate-key|candidate key]]
+
 ## Degree
 
 The **Degree** of the relation corresponds to the number of attributes in our

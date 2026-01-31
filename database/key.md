@@ -6,12 +6,14 @@ tags: []
 # Key
 
 A **key** is an [[attribute]] or a set of attribute whose value is unique for
-each [[entity]]. This key can be used to identify each enity uniquely
+each [[entity]]. This key can be used to identify each entity uniquely. A key is
+minimal meaning that we can't remove an attribute from it
 
 ## Super key
 
-A **super key** is a key where we can remove an [[attribute]] whithout
-deleting the key itself
+A **super key** is a set of attribute that can be used to identify a
+[[relation#tuple|tuple]]. Contrary to a key a superkey can have attribute that
+are useless
 
 ## Candidate key
 
