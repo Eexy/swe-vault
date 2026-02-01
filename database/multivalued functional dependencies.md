@@ -50,8 +50,5 @@ A multivalued functional dependency is called **trivial** if $Y$ is a subset of
 $X$ or if the union of $X$ and $Y$ is equal to the set of attribute of $R$ $X \cup Y = R$
 
 If the multivalued functional dependency doesn't satisfies one of this clause we
-said that it's **nontrivial**
-
-
-
+said that it's **nontrivial** which means there is redundancy like in the `TEACHER` relation
 

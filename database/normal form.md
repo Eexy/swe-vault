@@ -202,4 +202,38 @@ To remedy that we need to decouple this relation like that
 | Melanie |  Jobs  |
 
 
+## 4NF : Fourth normal form
+
+The fourth normal form **4NF** is based on the 
+[[multivalued functional dependencies]].
+
+A [[relation]] $R$ is in 4NF if for every 
+[[multivalued functional dependencies|nontrivial multivalued dependencies]] $X \twoheadrightarrow Y$ $X$ 
+must be a [[key#super-key|super key]]. In other word if we have a multivalued
+functional dependency in $R$ then $X$ must be able to uniquely identify the list
+of tuples so we must only have 
+[[multivalued functional dependencies#trivial-and-nontrivial|trival multivalued functional dependencies]]
+
+**example**: We use our `TEACHER` relation
+
+
+| Tuple | Professor | Course | Hobby |
+|-------|-----------|---------|---------|
+| t1 | Dr. Smith | Databases | Tennis |
+| t2 | Dr. Smith | Networks | Reading |
+| t3 | Dr. Smith | Databases | Reading |
+| t4 | Dr. Smith | Networks | Tennis |
+
+
+In this relation we have created multiples [[anomaly|anomalies]]
+
+1. We have a massive redundancy. The Dr.Smirth has 4 tuples associated because
+   we have 2 tuples for the courses and 2 for the hobbies
+2. If we want to add a new hobbies we have to insert 2 tuple
+3. We can't insert a new hobbies without inserting a course
+4. If we delete an hobbies we could loose a course
+
+To fix that we should separate the courses and the hobbies in two different
+relations
+
 
