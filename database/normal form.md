@@ -15,7 +15,7 @@ There is multi level of normal form :
 - [[#BCNF : Boyce-Codd normal form]]
 
 The main goal with implementing normal form is to reduce the risk of
-[[anomaly]] and to avoid data redundancy
+[[anomaly|anomalies]] and to avoid data redundancy
 
 ## 1NF : First normal form
 
