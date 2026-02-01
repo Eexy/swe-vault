@@ -33,6 +33,19 @@ values for each of their attribute
 To avoid that we use a subsets of attributes of a
 [[relation#relation#relation-schema|relation schema]] $R$ as [[key]]
 
+### Entity integrity constraint
+
+The **entity integrity constraint** states that no primary key value can be
+`NULL`. This is because the primary key is used to identify individual tuples in
+a [[relation]]
+
+### Referential integrity constraint
+
+The **referential integrity constraint** is specified between two
+[[relation|relations]]. It states that one tuple in a relation that reference
+another one in an other relation must refer to an existing tuple in that
+relation
+
 
 ## Application bases constraints
 
