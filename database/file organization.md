@@ -43,6 +43,13 @@ ordering field is the `age`
 If I want to insert a new person with `age = 2` I first have to move the second
 record and insert a new one in between
 
+## Clustered file
+
+A **cluster file** is also an ordered file where records are ordered based on a
+non key field
+
+The field use is called the **clustering field**
+
 ## Hash file
 
 An **hash file** is a file organization where records are ordered based on an hash.
