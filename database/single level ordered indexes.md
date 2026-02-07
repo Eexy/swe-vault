@@ -133,8 +133,7 @@ field. In this case we have several options for implementing such an index :
 1. Include duplicate endex entries with the same $K(i)$ value, one for each
    record
 2. Have a variable-length records for the index entries with a repeating field
-   for the pointer. So we would have a list of pointer for a field
-$<P(i,1),...,P(i, k)>$ in the indexing field value equals $K(i)$
+   for the pointer. So we would have a list of pointer for a field $<P(i,1),...,P(i, k)>$ in the indexing field value equals $K(i)$
 3. Keep the index entries themselves at a fixed length and have a single entry
    for each index field value but to create an extra level of indirection to
 handle the multi level of pointer. In this case the pointer $P(i)$ points to a

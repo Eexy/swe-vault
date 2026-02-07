@@ -43,6 +43,8 @@ ordering field is the `age`
 If I want to insert a new person with `age = 2` I first have to move the second
 record and insert a new one in between
 
+To find a record in an ordered file we can use a [[binary search]]
+
 ## Clustered file
 
 A **cluster file** is also an ordered file where records are ordered based on a
