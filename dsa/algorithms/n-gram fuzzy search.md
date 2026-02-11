@@ -17,8 +17,8 @@ it
 
 ### Generating n-grams
 
-First we neet to generate an **n-grams** the most common approach is to split
-into chuncks of tree characters
+First we need to generate an **n-grams** the most common approach is to split
+into chuncks of three characters
 
 We start by adding padding at the start and end of the string
 
@@ -71,7 +71,7 @@ search where users type partial names
 
 ### Definition the threshold
 
-With the score we must define a threshold so that each comparision that has a
+With the score we must define a threshold so that each comparison that has a
 score less than it are not kept
 
 We typically use this one depending of the purpose
@@ -128,6 +128,14 @@ pub fn similarity_asymmetric(query: &str, target: &str) -> f64 {
     intersection / tri_query.len() as f64
 }
 ```
+
+## Complexity
+
+The complexity of this algorithm is $O(n+m)$ where $n$ is the length of the
+query and $m$ the length of the target
+
+The complexity emerge from the creation of the n-grams because in the worst case
+we create an n-gram of 1 so we must loop over all the string length
 
 ## Advantages / disadvantage
 
