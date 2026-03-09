@@ -32,7 +32,7 @@ He is the state that follow a transaction
 ![[database/transaction_state.png]]
 
 - `BEGIN_TRANSACTION`: Marks the beginning of the transaction execution
-- `READ` or `WRITE`: pecify read or write operations on the database items that
+- `READ` or `WRITE`: specify read or write operations on the database items that
   are executed as part of a transaction
 - `END_TRANSACTION`: Marks the en of the transaction execution. However it may
 be necessary to check wheter the changes introduce by the transaction can be
