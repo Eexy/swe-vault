@@ -35,12 +35,12 @@ He is the state that follow a transaction
 - `READ` or `WRITE`: specify read or write operations on the database items that
   are executed as part of a transaction
 - `END_TRANSACTION`: Marks the en of the transaction execution. However it may
-be necessary to check wheter the changes introduce by the transaction can be
+be necessary to check whether the changes introduce by the transaction can be
 permanently applied or if we need to abort
 - `COMMIT` or `COMMIT_TRANSACTION`: : Signals a successful end of the
-transaction so that any changes cn be safely **committed** and will not be
+transaction so that any changes can be safely **committed** and will not be
 undone
-- `ROLLBACK` or `ABORT` : Signals that the transaction has fialed so we need to
+- `ROLLBACK` or `ABORT` : Signals that the transaction has failed so we need to
   undone all changes made
 
 ## SQL
@@ -48,7 +48,7 @@ undone
 In SQL the definition of a transaction is the same as defined above. The
 particularity is that a single statement is always considered
 [[ACID#atomicity|atomic]] meaning that if it's fail it's canceled meaning that a
-transaction is created implicitely without specifying
+transaction is created implicitly without specifying
 
 However if we need to do multiple operations we need to specify a transaction
 with the keywords `BEGIN TRANSACTION` and `END TRANSACTION`.
