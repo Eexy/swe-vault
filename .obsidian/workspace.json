@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/transaction.md",
+                "file": "database/query plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "transaction"
+              "title": "query plan"
             }
           }
         ]
@@ -172,6 +172,8 @@
   },
   "active": "af5191538457dc31",
   "lastOpenFiles": [
+    "database/query plan.md~",
+    "database/transaction.md",
     "database/transaction.md~",
     "dsa/algorithms/binary search.md",
     "Pasted image 20250316151902.png.md",
@@ -201,13 +203,11 @@
     "math/ensemble",
     "math",
     "database/entité.md",
-    "database/attribut.md",
     "Interpreter/parsers",
     "design pattern",
     "DSA",
     "Interpreter",
     "todos/version/mvp/backlog",
-    "todos/version/mvp",
     "database/illustrations/query tress.png",
     "database/illustrations/union example.png",
     "database/illustrations/UML diagram.png",
