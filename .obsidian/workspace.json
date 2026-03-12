@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/query plan.md",
+                "file": "math/cartesian product.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "query plan"
+              "title": "cartesian product"
             }
           }
         ]
@@ -172,6 +172,9 @@
   },
   "active": "af5191538457dc31",
   "lastOpenFiles": [
+    "math/set.md",
+    "database/query plan.md",
+    "math/Untitled.md",
     "database/query plan.md~",
     "database/transaction.md",
     "database/transaction.md~",
@@ -199,15 +202,12 @@
     "database/forme normale.md",
     "database/etat de base de donnée relationel.md",
     "math/ensemble/sous-ensemble.md",
-    "design pattern/visitor pattern.md",
     "math/ensemble",
     "math",
-    "database/entité.md",
     "Interpreter/parsers",
     "design pattern",
     "DSA",
     "Interpreter",
-    "todos/version/mvp/backlog",
     "database/illustrations/query tress.png",
     "database/illustrations/union example.png",
     "database/illustrations/UML diagram.png",
