@@ -8,7 +8,7 @@ tags: []
 Two [[statement form]] are called **logically equivalent** if and only if they have
 identical truth values for each possible substitution of statements for their
 statement variables. The logical equivalence of statement form $P$ and $Q$ is
-denoted by writting $P \equiv Q$
+denoted by writing $P \equiv Q$
 
 We can also says that two statements are called **logically equivalent** if and
 only if they have logically equivalent forms when identical component statement
