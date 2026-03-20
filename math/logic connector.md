@@ -30,7 +30,7 @@ The disjunction is true if and only if $p$ or $q$ is true
 
 ## Negation
 
-If $p$ is a [[statement]]variable, the **negation** of $p$ is "not $p$". The
+If $p$ is a [[statement]] variable, the **negation** of $p$ is "not $p$". The
 negation is written with $\neg$. When using the negation we take the opposite
 truth value of $p$ so if $p$ is true then its negation is false and vice versa
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/argument form.md",
+                "file": "math/universal quantifier.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "argument form"
+              "title": "universal quantifier"
             }
           }
         ]
@@ -172,6 +172,8 @@
   },
   "active": "af5191538457dc31",
   "lastOpenFiles": [
+    "math/universal quantifier.md~",
+    "math/argument form.md",
     "math/argument.md",
     "math/universal quantifier.md",
     "math/truth table.md",
@@ -190,7 +192,6 @@
     "math/implicit quantification.md~",
     "math/arrow diagram.md",
     "math/function.md",
-    "math/argument form.md",
     "math/binary system.md~",
     "attachments/math/applications/binary_subtraction.png",
     "attachments/math/applications/binary_substraction.png",
@@ -212,7 +213,6 @@
     "math/conditional statement.md~",
     "math/argument and statement.md",
     "math/logic.md",
-    "math/De Margan's law.md",
     "database/illustrations/query tress.png",
     "database/illustrations/union example.png",
     "database/illustrations/UML diagram.png",
