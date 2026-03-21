@@ -12,6 +12,12 @@ It is defined to be false if and only if $Q(x)$ is false for at least one $x$ in
 $D$. A value for $x$ for which $Q(x)$ is false is called a **counterexample** to
 the universal statement
 
+**example** : $\forall x \in \mathbb{Z}$, if $x$ is even then $x^2$ is even — true
+for all integers
+
+**example of a counterexample** : The statement "all primes are odd" is false.
+The counterexample is $x = 2$: it is prime but even
+
 ## Proving a universal statement with exhaustion
 
 One way to prove a universal statement is to use **exhaustion**. With this
@@ -29,12 +35,12 @@ $$
 $$
 
 In other terms the negation of a universal statement ("all are") is logically
-equivalent to an existential stament ("some are" or "there is at least one that
+equivalent to an existential statement ("some are" or "there is at least one that
 is not")
 
 ## Universal conditional statement
 
-For the nexte example we will use the universal conditional stement
+For the next example we will use the universal conditional statement
 
 $$
 \forall x, \ if P(x) \ then \ Q(x)

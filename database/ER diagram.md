@@ -5,7 +5,6 @@ tags: []
 ---
 # ER diagram
 
-![[Pasted image 20250316151902.png]]
 
 ## Entity
 
@@ -18,7 +17,7 @@ border
 
 ## Attribute
 
-An [[attribute]] is represented by a cercle with the name and a link to the
+An [[attribute]] is represented by a circle with the name and a link to the
 entity
 
 ### Composite attribute
@@ -28,7 +27,7 @@ represented like an attribute with different attribute linked to him
 
 ### Multivalued attribute
 
-A [[attribute#single-valued-and-multivalued-attribute|multivalued attribute]] is represented like an attribute with a cercle with two border
+A [[attribute#single-valued-and-multivalued-attribute|multivalued attribute]] is represented like an attribute with a circle with two border
 
 ### Derived attribute
 

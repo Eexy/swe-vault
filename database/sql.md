@@ -1,5 +1,0 @@
----
-id: sql
-aliases: []
-tags: []
----

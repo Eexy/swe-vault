@@ -23,6 +23,12 @@ We can states thos 2 properties less formally as follows
     [[ordered tuple#ordered-pair|ordered pair]] of $F$
 2. No two disctinct ordered pair have the same first element
 
+**example (function)** : $f: \mathbb{R} \to \mathbb{R}$ defined by $f(x) = x^2$.
+Every real number has exactly one square, so both properties hold
+
+**example (not a function)** : The "is parent of" relation from people to people
+is not a function because one person can have multiple children — property 2 fails
+
 ## Equality of function
 
 Two functions $f$ and $g$ are equal if and only if $f(x) = g(x)$ for all $x$ in
@@ -33,4 +39,7 @@ We write the equality of two functions like that :
 $$
 f = g
 $$
+
+**example** : $f(x) = (x+1)^2 - 2x - 1$ and $g(x) = x^2$ are equal functions because
+expanding $f$ gives $x^2 + 2x + 1 - 2x - 1 = x^2 = g(x)$ for all $x$
 

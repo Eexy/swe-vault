@@ -21,3 +21,15 @@ $$
 x R y \ means \ that \ (x,y) \in R
 $$
 
+**example** : Let $A = \{1, 2, 3\}$ and $B = \{a, b\}$. The following is a valid
+relation from $A$ to $B$:
+
+$$
+R = \{(1,a),\ (2,b),\ (3,a)\}
+$$
+
+Here $1 R a$, $2 R b$, and $3 R a$
+
+**example** : The "less than" relation on $\mathbb{Z}$: $x R y$ means $x < y$, so
+$(1,2) \in R$, $(2,5) \in R$, but $(3,1) \notin R$
+

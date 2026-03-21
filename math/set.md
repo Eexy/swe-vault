@@ -55,7 +55,7 @@ composed only of the positive or negative or nonnegative elements
 | Symbol | Set |
 | -------------- | --------------- |
 | $R$ | the set of all real numbers|
-| $Z$ | the set of all integers|
-| $Q$ | the set of all rational numbers, or quotients of integers|
+| $Z$ | the set of all [[integer\|integers]]|
+| $Q$ | the set of all [[rational number\|rational numbers]], or quotients of integers|
 
 

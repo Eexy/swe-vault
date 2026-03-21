@@ -42,7 +42,7 @@ premises
 ### Modus ponens
 
 The **modus ponens** is the most famous form of syllogism. It has the following
-form 
+form
 
 $$
 if \ p \ then \ q
@@ -54,21 +54,26 @@ $$
 \therefore q
 $$
 
+**example** : "If it rains then the street is wet. It is raining. Therefore the
+street is wet."
+
 ### Modus tollens
 
-The **modus tollens**  is also another valid argument form. It has the following
+The **modus tollens** is also another valid argument form. It has the following
 form
-
 
 $$
 if \ p \ then \ q
 $$
 $$
-\neg p
+\neg q
 $$
 $$
-\therefore \neg q
+\therefore \neg p
 $$
+
+**example** : "If it rains then the street is wet. The street is not wet. Therefore
+it did not rain."
 
 ## Rule of inference
 
