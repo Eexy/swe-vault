@@ -64,8 +64,9 @@ Any integer $n > 1$ is divisible by a prime number
 - $15$ is divisible by $3$ (prime)
 - $7$ is divisible by $7$ itself (prime)
 
-**Proof.** Suppose $n$ is a particular but arbitrarily chosen integer greater than
-1. We must show that there is a prime number that divides $n$.
+**Proof.** Suppose $n$ is a particular but arbitrarily chosen integer greater than 1 
+
+We must show that there is a prime number that divides $n$.
 
 If $n$ is prime, then $n$ is divisible by a prime number (namely itself), and we
 are done.
@@ -91,9 +92,3 @@ where $k \geq 0$, $1 < r_k < r_{k-1} < \cdots < r_1 < r_0 < n$, and $r_i \mid n$
 for each $i = 0, 1, \ldots, k$. The process terminates when $r_k$ is prime.
 Hence $r_k$ is a prime number that divides $n$. $\blacksquare$
 
-## Div and Mod
-
-Given an integer $n$ and a positive integer $d$
-
-1. $n div d$ is equal to the integer quotient obtained when $n$ is divided by $$
-2. $n mod d$ is the nonegative integer ramainder

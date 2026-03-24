@@ -3,7 +3,7 @@ id: absolute value and triangle inequality
 aliases: []
 tags: []
 ---
-# Absolute value and triagnle inequality
+# Absolute value and triangle inequality
 
 ## Absolute value
 
