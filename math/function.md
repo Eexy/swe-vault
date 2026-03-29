@@ -7,9 +7,9 @@ tags: []
 
 A **function** $F$ from a [[set]] $A$ to a set $B$ is a
 [[relation]] with domain $A$ and co-domain $B$ that satisfies the following two
-porperties
+properties
 
-1. For everyement $x$ in $A$, there is an element $y$ in $B$ such that 
+1. For every element $x$ in $A$, there is an element $y$ in $B$ such that 
     $(x,y) \in F$
 2. For all elements $x$ in $A$ and $y$ and $z$ in $B$ we have :
 
@@ -21,7 +21,7 @@ We can states thos 2 properties less formally as follows
 
 1. every element of $A$ is the first element of an
     [[ordered tuple#ordered-pair|ordered pair]] of $F$
-2. No two disctinct ordered pair have the same first element
+2. No two distinct ordered pair have the same first element
 
 **example (function)** : $f: \mathbb{R} \to \mathbb{R}$ defined by $f(x) = x^2$.
 Every real number has exactly one square, so both properties hold

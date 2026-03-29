@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/absolute value and triangle inequality.md",
+                "file": "math/function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "absolute value and triangle inequality"
+              "title": "function"
             }
           }
         ]
@@ -172,13 +172,14 @@
   },
   "active": "af5191538457dc31",
   "lastOpenFiles": [
+    "math/relation.md",
+    "math/set.md",
+    "math/absolute value and triangle inequality.md",
     "math/unique factorization of integers theorem.md",
     "math/quotient remainder theorem.md",
-    "math/relation.md",
     "math/absolute value and triangle inequality.md~",
     "math/lemma.md~",
     "math/lemma.md",
-    "math/absolute value and triangle inequality.md",
     "math/parity property.md~",
     "math/parity property.md",
     "math/quotient remainder theorem.md~",
@@ -206,7 +207,6 @@
     "math/statement.md",
     "math/universal quantifier.md",
     "math/universal quantifier.md~",
-    "math/argument form.md",
     "math/implicit quantification.md~",
     "attachments/math/applications/binary_subtraction.png",
     "attachments/math/applications/binary_substraction.png",
