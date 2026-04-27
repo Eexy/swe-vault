@@ -5,7 +5,7 @@ tags: []
 ---
 # Sequence
 
-A **sequence** is a function whose domain is either all the [[integer|integers]] between two
+A **sequence** is a [[function]] whose domain is either all the [[integer|integers]] between two
 given integers or all the integers greater than or equal to a given integer
 
 A sequence is typically represented as a [[set]] of elements written in a row.
@@ -31,9 +31,9 @@ $$
 denotes an **infinite sequence**. An **explicit formula** or **general formula**
 for a sequence is a rule that shows how the values of $a_k$ depend on $k$
 
-## Finding an explicit formula to fit given inital terms
+## Finding an explicit formula to fit given initial terms
 
-Here is an exemple of how find the explicit formla with the initial terms of a sequence
+Here is an example of how find the explicit formula with the initial terms of a sequence
 
 **example**
 

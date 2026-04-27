@@ -8,9 +8,12 @@ tags: []
 A **proof** is a way to communicate convincing [[argument]] for the truth of a
 mathematical [[statement]]
 
-There is 2 method of proof
+There is 4 method of proof
 
 1. [[direct proof]]
+2. [[proof by contradiction]]
+3. [[proof by contraposition]]
+4. [[proof by mathematical induction]]
 
 ## Writting advice
 
