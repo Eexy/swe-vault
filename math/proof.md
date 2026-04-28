@@ -15,7 +15,7 @@ There is 4 method of proof
 3. [[proof by contraposition]]
 4. [[proof by mathematical induction]]
 
-## Writting advice
+## Writing advice
 
 ### 1. Copy the statement of the theorem to be proved
 
@@ -30,22 +30,22 @@ This word separates general discussion about the theorem form its actual proof
 
 This means that you should explain the meaning of each variable used in your
 proof in the body of you proof. Thus you will begin proofs by introducing this
-inital variables and stating what kind of objects they are. The first sentence
+initial variables and stating what kind of objects they are. The first sentence
 of your proof would be something like "Suppose m and n are any even integer"
 
-### 4. Write your proof in complete, grammaticaly correct sentences
+### 4. Write your proof in complete, grammatically correct sentences
 
 This does not mean that you should avoid using symbols and shorthand
-abbreviation, just that you should incorporate them into sences
+abbreviation, just that you should incorporate them into sentences
 
 ### 5. Keep the reader informed about the status of each statement in the proof
 
-The reader should never be in doubt about wheter something in your proof has
+The reader should never be in doubt about whether something in your proof has
 been assumed or established or is still to be deduced. If something is assumed
 preface it with a work like "Suppose" or "Assume"
 
 If it is still to be shown preface it with words like "We must show that" or
-"In other words we musth show that"
+"In other words we must show that"
 
 ### 6. Give a reason for each assertion in the proof
 
@@ -61,19 +61,19 @@ Indicate the reason for each step of your proof using phrases such as
 
 When writing a mathematical argument, especially a proof, indicate how each
 sentence is related to the previous one. Does it follow from the previous
-sentence or from a combination of the previous sentence and ealier ones? 
+sentence or from a combination of the previous sentence and earlier ones? 
 
 If so we start the sentence with word "Because" or "Since" and state the reason
 why it follows, or we write "Then" or "Thus" or "So", "Hence", "Therefore"
 
 If a sentence expresses a new thought of fact that does not follow as an
-immediate consequence of the preceding stgatement but is needed for a later part
+immediate consequence of the preceding statement but is needed for a later part
 we introduce it by writing "Observe that", "Note that", "Recall that", "But" or
 "Now"
 
 ### 8. Display equations and inequalities
 
-The convention is to display eqquations and inequalities on separate lines to
+The convention is to display equations and inequalities on separate lines to
 increase readability, both for other people and for ourselves so that we can
 more easily check our work for accuracy
 
