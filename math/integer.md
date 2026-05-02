@@ -22,3 +22,8 @@ Integers can be classified by various properties
 - **[[composite number]]** — greater than 1, has a divisor other than 1 and itself
 
 Every integer is also a [[rational number]] (take $b = 1$ in $\frac{a}{b}$)
+
+## Well ordering principle for the integers
+
+Let $S$ be a set of integers containing one or more integers all of which are
+greater than some fixed integer. Then $S$ has a least element

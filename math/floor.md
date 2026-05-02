@@ -20,7 +20,7 @@ $$
 
 For every real number $x$ and every integer $m$, $\lfloor x + m \rfloor = \lfloor x \rfloor + m$
 
-**Proof.** Suppose anyr real number $x$ and any integer $m$ given
+**Proof.** Suppose any real number $x$ and any integer $m$ given
 
 Let $n = \lfoor x \rfloor$. By definition of floor, $n$ is an integer and
 
@@ -41,7 +41,7 @@ $$
 \lfloor x + m \rfloor = n + m
 $$
 
-But $n = \lfoor x \rfloor$. Hence by subsitution
+But $n = \lfoor x \rfloor$. Hence by substitution
 
 $$
 n + m = \lfloor x \rfloor + m
