@@ -5,6 +5,8 @@ tags: []
 ---
 # Summation notation
 
+See also: [[recursive definitions of sum and product]]
+
 If $m$ and $n$ are [[integer]] and $m \le n$ the symbol $\sum_{k=m}^{n} = a_k$
 read the summation from $k$ equals $m$ to $n$ of a sub k, is the sum of all the
 [[sequence|terms]] $a_m + a_{m+1} + \ldots + a_n$

@@ -23,6 +23,16 @@ Integers can be classified by various properties
 
 Every integer is also a [[rational number]] (take $b = 1$ in $\frac{a}{b}$)
 
+## Sum of the first $n$ integers
+
+For every integer $n \ge 1$, the sum of the first $n$ positive integers is:
+
+$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$
+
+The expanded form is:
+
+$$1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}$$
+
 ## Well ordering principle for the integers
 
 Let $S$ be a set of integers containing one or more integers all of which are

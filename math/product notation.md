@@ -5,6 +5,8 @@ tags: []
 ---
 # Product notation
 
+See also: [[recursive definitions of sum and product]]
+
 If $m$ and $n$ are [[integer|integers]] and $m \le n$, the symbol $\prod_{k=m}^{n} a_k$, read the **product from $k$ equals $m$ to $n$ of a-sub-$k$**, is the product of all the terms $a_m, a_{m+1}, a_{m+2}, \ldots, a_n$.
 
 We write:
