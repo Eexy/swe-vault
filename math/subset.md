@@ -26,3 +26,37 @@ written $A \subset B$
 **example** : $\{1, 2\} \subset \{1, 2, 3\}$ is a proper subset since $3 \in B$
 but $3 \notin A$. However $\{1,2,3\} \subseteq \{1,2,3\}$ is not a proper subset
 
+## Subset relation
+
+### Inclusion of intersection
+
+For all sets $A$ and $B$
+
+$$
+A \cap B \subseteq A
+$$
+
+
+$$
+A \cap B \subseteq B
+$$
+
+### Inclusion in union
+
+
+$$
+A \subseteq A \cup B 
+$$
+
+
+$$
+B \subseteq A \cup B 
+$$
+
+### Transitivity property of subsets
+
+For all sets $A$, $B$ and $C$
+
+$$
+\text{if } A \subseteq B \text{ and } B \subseteq C \text{ then } A \subseteq C
+$$
