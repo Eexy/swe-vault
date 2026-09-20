@@ -81,3 +81,5 @@ $A$
 example : The power set of $\{x, y\}$ is
 
 $\{\emptyset, \{x\}, \{y\}, \{x, y\}\}$
+
+The power set of $A$ has $2^n$ elements where $n$ is the number of element in $A$

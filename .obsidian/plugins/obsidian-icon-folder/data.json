@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGitPullRequest",
       "LiCalculator",
       "LiConstruction",
       "LiSquareDashedBottomCode",
-      "LiLanguages",
-      "LiDatabase"
+      "LiLanguages"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,5 +38,6 @@
   "Interpreter": "LiLanguages",
   "DSA": "LiSquareDashedBottomCode",
   "design pattern": "LiConstruction",
-  "math": "LiCalculator"
+  "math": "LiCalculator",
+  "dsa": "LiGitPullRequest"
 }
