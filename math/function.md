@@ -102,3 +102,54 @@ F^{-1}(y) = \text{ that unique element } x \in X \text{ such that } F(x) \text {
 $$
 
 This function is called the **inverse function**
+
+## Composition of function
+
+Let $f : X \rightarrow Y$ and $g : Y' \rightarrow Z$ be functions with the property that the range of $f$ is a [[subset]] of the domain of $g$. Define a new function $g \circ f : X \rightarrow Z$ as follows :
+
+$$
+(g \circ f)(x) = g(f(x)) \text{ for each } x \in X
+$$
+where $g \circ f$ is read "g circle f" and $g(f(x))$ is read "g of f of $x$" The function $g \circ f$ is called the **composition of $f$ and $g$**
+
+Here is the visual representation :
+
+![[function_composition.png]]
+
+### Composition of function with its inverse
+
+If $f : X \rightarrow Y$ is a one-to-one and onto function with inverse function $f^{-1} : Y \rightarrow X$ then we have
+
+$$
+f^{-1} \circ f = I_x 
+$$
+
+and 
+
+
+
+$$
+f \circ f ^{-1}  = I_x 
+$$
+
+where $I_x$ is the [[identity function]]
+
+### Composition of one-to-one function
+
+if $f : X \rightarrow Y$ and $g : Y \rightarrow Z$ are both one-to-one functions then $g \circ f$ is one-to-one
+
+Here is how to prove it
+
+![[proof_composition_one_to_one.png]]
+
+![[proof_composition_one_to_one_part_2.png]]
+
+### Composition of onto function
+
+if $f : X \rightarrow Y$ and $g : Y \rightarrow Z$ are both one-to-one functions then $g \circ f$ is onto
+
+Here is how to prove it
+
+![[proof_composition_onto.png]]
+
+![[proof_composition_onto_part_2.png]]
